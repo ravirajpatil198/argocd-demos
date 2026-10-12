@@ -7,7 +7,9 @@ resources:
   - deployment.yml
   - service.yml
   - secret.yml
-
+images:
+  - name: patilraviraj198/chai-app
+    newTag: v1.0.0
 # (optional) you can put commonLabels or namespace here if you want
 # commonLabels:
 #   app: chai-app
